@@ -4,6 +4,12 @@ function getIt() {
   })
 }
 
+function frameIt() {
+  $("img").load(function() {
+    ($"img").addClass(".tasty")
+  })
+}
+
 function pressIt() {
   $("#typing").keydown(function(key) {
     if(key.which == 71)
